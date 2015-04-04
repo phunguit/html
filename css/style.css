@@ -1,0 +1,152 @@
+body {
+	background: url(../images/background-body.jpg);
+	background-position: center center;
+	/*background-size: cover;*/
+	background-size: 100% auto;
+	font: 12px Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	width: 1263px;
+}
+
+#header {
+	height: 170px;
+}
+
+/* ==============================HEADER===================================== */
+#header .top .logo {
+	margin: 24px 0px 0px 60px;
+	float: left;
+	line-height: 170px;
+}
+
+#header .top .text {
+	float: left;
+	margin: 52px 0px 0px 10px;
+}
+
+#header .top .phone {
+	float: right;
+	margin: 45px 40px 0px 0px;
+}
+
+/* ==============================MENU===================================== */
+#header .moto {
+	float: left;
+	margin-left: 60px;
+}
+
+#header .moto .gift-box {
+	position: absolute;
+	margin: 30px 0px 0px 15px;
+}
+
+#header .moto .moto-gift {
+	height: 400px;
+}
+
+#header .menu .gift img {
+	margin: 25px 60px 0px 227px;
+}
+
+
+#header .menu {
+	float: right;
+	margin: 0px 50px 0px 0px;
+	width: 676px;
+}
+
+#header .menu .content {
+	background: url(../images/content-bg.jpg) left top repeat-x;
+	height: 45px;
+	border-radius: 7px;
+}
+
+/* ==============================MENU===================================== */
+#header .menu .content ul li {
+	float: left;
+}
+
+#header .menu .content ul li a {
+	display: block;
+	padding: 0px 5px;
+	font: bold 14px/45px Arial, Helvetica, sans-serif;
+	color: #fffef9;
+}
+
+#header .menu .content ul li a:hover {
+	color: #363;
+	text-decoration: underline;
+}
+
+#header .menu .content ul li input {
+	margin-top: 10px;
+	height: 24px;
+}
+
+#header .menu .content .input-text {
+	width: 197px;
+	border-radius: 4px;
+	margin: 0px 10px 0px 25px;
+}
+
+#header .menu .content .button {
+	width: 65px;
+	background-color: #0195eb;
+	border-radius: 4px;
+	color: #f0dab1;
+	border-color: #0195eb;
+}
+
+.line-45 {
+	width: 1px;
+	height: 42px;
+	background-color: #3ddefa;
+}
+
+/* ==============================BOTTOM===================================== */
+#bottom {
+	height: 172px;
+}
+
+#bottom img {
+	float: left;
+}
+
+#bottom .call img {
+	margin: 10px 0px 0px 70px;
+}
+
+#bottom .moto-bt img {
+	margin: 15px 0px 0px 115px;
+}
+
+#bottom .home img {
+	margin: 10px 0px 0px 110px;
+}
+
+#bottom .people img {
+	margin: 12px 0px 0px 125px;
+}
+
+#content .moto {
+	float: left;
+	margin-left: 60px;
+}
+
+#content .moto .gift-box {
+	position: absolute;
+	margin-left: 12px;
+}
+
+#content .moto .moto-gift {
+	margin-top: -22px;
+	height: 385px;
+}
+
+#content .gift {
+	float: right;
+}
+
+#content .gift img {
+	margin: 33px 93px 0px 0px;
+}
