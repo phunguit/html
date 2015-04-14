@@ -1,6 +1,6 @@
 body {
 	background: url(../images/background-body.jpg);
-	background-position: center center;
+	/*background-position: center center;*/
 	/*background-size: cover;*/
 	background-size: 100% auto;
 	font: 12px Arial, Helvetica, sans-serif;
@@ -130,7 +130,7 @@ body {
 
 #content .moto {
 	float: left;
-	margin-left: 60px;
+	margin-left: 15px;
 }
 
 #content .moto .gift-box {
@@ -150,3 +150,75 @@ body {
 #content .gift img {
 	margin: 33px 93px 0px 0px;
 }
+
+#content {
+	margin-left: 45px;	
+}
+
+#content .content-wrapper {
+	margin-top: 15px;
+}
+
+#content .content-left {
+	float: left;
+	background: url(../images/bg-content-left.png) no-repeat;
+	width: 500px;
+	height: 480px;
+}
+
+#content .content-right {
+	float: right;
+	margin-right: 15px;
+	background-color: #4eccfe;
+	height: 480px;
+	width: 703px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#content .content-right .menu-content-left {
+	width: 640px;
+	background-color: #fefefe;
+	height: 35px;
+	border-radius: 10px;
+	margin: 20px 55px 0px 40px;
+	overflow:hidden
+}
+
+#content .content-right .menu-content-left li {
+	float: left;
+}
+
+#content .content-right .menu-content-left ul li a {
+	color: #4eccfe;
+	display: block;
+	font: 20px/35px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	padding: 0px 12px;
+}
+
+#content .content-right .menu-content-left ul li a:hover {
+	background-color: #d2d3d5;
+}
+
+.line-35 {
+	width: 2px;
+	height: 35px;
+	background-color: #3ddefa;
+}
+
+/*#header .menu .content ul li {
+	float: left;
+}
+
+#header .menu .content ul li a {
+	display: block;
+	padding: 0px 5px;
+	font: bold 14px/45px Arial, Helvetica, sans-serif;
+	color: #fffef9;
+}
+
+#header .menu .content ul li a:hover {
+	color: #363;
+	text-decoration: underline;
+}*/
